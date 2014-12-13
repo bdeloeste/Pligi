@@ -13,17 +13,45 @@ html {
 body,
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+h3 {
+    font-family: "Poiret One", cursive;
+}
+
+.navbar-inverse {
+    font-family: "Droid Sans", sans-serif;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #777;
+  background-color: transparent;
 }
 
 .lead {
     font-size: 18px;
     font-weight: 400;
+}
+.about-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/pligi-banner.jpg) no-repeat center center;
+    background-size: cover;
+    height: 50%;
 }
 
 .intro-header {
@@ -31,7 +59,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/pligi-banner.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -45,6 +73,13 @@ h6 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
+}
+
+.intro-message > h2 {
+    margin: 0 auto;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+    padding-top: 0;
 }
 
 .intro-divider {
@@ -112,7 +147,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/pligi-banner.jpg) no-repeat center center;
     background-size: cover;
 }
 
