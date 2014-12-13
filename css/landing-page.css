@@ -12,12 +12,15 @@ html {
 
 body,
 h1,
-h2,
 h4,
 h5,
 h6 {
     font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+h2 {
+    font-family: "Doid Sans", sans-serif;
 }
 
 h3 {
@@ -51,7 +54,7 @@ h3 {
     color: #f8f8f8;
     background: url(../img/pligi-banner.jpg) no-repeat center center;
     background-size: cover;
-    height: 50%;
+    height: 60%;
 }
 
 .intro-header {
@@ -126,6 +129,7 @@ h3 {
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
+    font-family: "Droid Sans", sans-serif;     
 }
 
 .content-section-b {
@@ -136,6 +140,7 @@ h3 {
 
 .section-heading {
     margin-bottom: 30px;
+    font-family: "Droid Sans";
 }
 
 .section-heading-spacer {
